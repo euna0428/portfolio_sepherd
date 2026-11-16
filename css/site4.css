@@ -853,3 +853,8 @@ h1,h2,h3,h4,.fone,.hsub{text-wrap:balance}
 .casemore>summary::after{content:" +";}
 .casemore[open]>summary::after{content:" −";}
 .casemore .case:first-of-type{padding-top:6px}
+
+.docl{margin-top:22px;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;padding-top:16px;border-top:1px solid var(--line)}
+.docl b{font-size:14px;color:var(--ink)}
+.docl span{display:flex;flex-wrap:wrap;gap:6px 10px}
+.docl a{font-size:14px;color:var(--blue);text-decoration:underline;text-underline-offset:3px}
