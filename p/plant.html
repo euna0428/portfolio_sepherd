@@ -7,7 +7,7 @@
 <meta name="description" content="식물 센서·급수 기록으로 토양 수분을 예측하고, 환경 상태를 건조·일반·과습으로 나누는 모델입니다.">
 <meta property="og:title" content="식물 AI · 이은아">
 <meta property="og:description" content="식물 센서·급수 기록으로 토양 수분을 예측하고, 환경 상태를 건조·일반·과습으로 나누는 모델입니다.">
-<meta property="og:image" content="https://leeeunah-portfolio.vercel.app/images/og.jpg">
+<meta property="og:image" content="https://portfolio-sepherd.vercel.app/images/og.jpg">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="../images/favicon.png">
@@ -19,7 +19,7 @@
 <header class="gtop" id="gtop">
   <div class="gh-in">
     <a class="brand" href="../index.html"><img src="../images/char_sq.png" alt="">이은아</a>
-    <nav class="gnav" aria-label="섹션 이동"><a href="../index.html#profile">소개</a><a href="../index.html#can">할 수 있는 일</a><a href="../index.html#skills">기술</a><a href="../index.html#projects">프로젝트</a><a href="../index.html#learning">학습 기록</a></nav>
+    <nav class="gnav" aria-label="섹션 이동"><a href="../index.html#profile">소개</a><a href="../index.html#can">할 수 있는 일</a><a href="../index.html#skills">기술</a><a href="../index.html#projects">프로젝트</a></nav>
     <div class="gact"><a class="ghlink" href="https://github.com/euna0428" target="_blank" rel="noopener" data-cur="ext"><img class="ghi" src="../vendor/icons/github.svg" alt="" width="20" height="20">GitHub</a></div>
   </div>
 </header>
@@ -31,11 +31,19 @@
   <p class="htag"><span style="--c:#3776ab"><img src="../vendor/icons/python.svg" alt="" width="16" height="16">#Python</span><span style="--c:#4b3ca8"><img src="../vendor/icons/pandas.svg" alt="" width="16" height="16">#pandas</span><span style="--c:#e07b00"><img src="../vendor/icons/scikitlearn.svg" alt="" width="16" height="16">#scikit-learn</span><span style="--c:#2f6f4e">#LightGBM</span><span style="--c:#6b6b6b">#JSON</span><span style="--c:#3776ab">#ThreadPoolExecutor</span></p>
   <div class="acts"></div>
 </div></section>
-<div class="dtabs"><div class="wrap"><a href="#ov">개요</a><a href="#bg">배경과 문제</a><a href="#role">역할과 기여</a><a href="#dec">기술적 의사결정</a><a href="#res">성과와 배운 점</a></div></div>
+<div class="dtabs"><div class="wrap"><a href="#ov">개요</a><a href="#role">내가 한 일</a><a href="#demo">시연 화면</a><a href="#bg">배경과 문제</a><a href="#dec">기술적 의사결정</a><a href="#res">성과와 배운 점</a></div></div>
 <div class="wrap">
 <section class="ds" id="ov"><h2>개요</h2>
   <ul class="sum big rv"><li>식물 센서·급수 기록으로 토양 수분을 예측하고, 환경 상태를 건조·일반·과습으로 나누는 모델입니다.</li><li>처음 정확도가 거의 100%로 나와, 데이터가 어디까지 읽혔는지부터 다시 확인했습니다.</li><li>전체 디렉터리를 읽도록 고친 뒤 학습 388,593건, 검증 42,758건으로 다시 평가했습니다.</li></ul>
   <dl class="meta rv"><div><dt>기간</dt><dd>2025.03 ~ 2025.06</dd></div><div><dt>구분</dt><dd>교내활동</dd></div><div><dt>인원</dt><dd>3인 팀</dd></div><div><dt>역할</dt><dd>센서 데이터 전처리 · 토양 수분 회귀 · 환경 상태 분류 모델 · 시연 영상 편집 (웹사이트 제작에서 담당 변경)</dd></div></dl>
+</section>
+
+<section class="ds" id="role"><h2>내가 한 일</h2>
+  <p class="role rv">센서 데이터 전처리 · 토양 수분 회귀 · 환경 상태 분류 모델 · 시연 영상 편집 (웹사이트 제작에서 담당 변경)</p>
+  <div class="rv"><div class="mo"><div><h4>내가 만든 부분</h4><ul><li>센서·급수 이력 JSON 병렬 적재</li><li>급수 후 경과일, 온·습도 이동평균 변수</li><li>토양 수분 회귀, 환경 상태 분류 모델</li><li>시연 영상 편집 (목소리 녹음은 조장)</li></ul></div><div class="ot"><h4>팀원이 만든 부분</h4><ul><li>잎 이미지 수분 상태 3분류</li><li>종 판별 모델</li><li>시연 웹사이트 (처음엔 본인 담당이었다가 담당이 바뀌어 팀원이 제작)</li></ul></div></div></div>
+  
+</section>
+<section class="ds" id="demo"><h2>시연 화면</h2>
   <div class="demo rv">
   <div class="dv"><video src="../media/plant_demo.mp4" poster="../images/poster_plant.jpg" muted playsinline preload="metadata" controls data-auto></video><button type="button" class="snd" data-snd>소리 켜기</button></div>
   <aside class="chap"><ol><li><button type="button" data-t="0"><span>시연에 쓴 스파티필름 사진 3장 (건조·과습·적절)</span><em>0:00</em></button></li><li><button type="button" data-t="28.8"><span>종 판별: 사진을 올리면 스파티필름으로 예측하고 특징을 보여 줌</span><em>0:28</em></button></li><li><button type="button" data-t="48"><span>1번 사진 수분 상태 진단: 건조</span><em>0:48</em></button></li><li><button type="button" data-t="60"><span>2번 사진 수분 상태 진단: 과습</span><em>1:00</em></button></li><li><button type="button" data-t="80"><span>3번 사진 수분 상태 진단: 적절</span><em>1:20</em></button></li></ol></aside>
@@ -43,13 +51,9 @@
 <p class="vcap rv">팀이 만든 시연 웹사이트 영상입니다. 스파티필름 사진 3장을 올려 종을 판별하고, 사진마다 수분 상태를 건조·과습·적절로 진단합니다. 영상 속 목소리는 조장님이 녹음했고, 영상 편집은 제가 했습니다. 웹사이트 제작은 처음에 제가 맡았다가 센서 데이터 기반 수분 상태 진단 모델로 담당이 바뀌어, 화면은 팀원이 만들었습니다. 제 모델은 보고서에 담았고 이 웹 화면에는 들어가지 않았습니다.</p>
   <div class="shots"><figure class="shot rv"><img src="../images/plant_web_40.jpg" alt="[팀원 화면] 종 판별 결과: 스파티필름과 키우는 법" loading="lazy" data-zoom><figcaption>[팀원 화면] 종 판별 결과: 스파티필름과 키우는 법</figcaption></figure><figure class="shot rv"><img src="../images/plant_web_57.jpg" alt="[팀원 화면] 수분 상태 진단: 건조" loading="lazy" data-zoom><figcaption>[팀원 화면] 수분 상태 진단: 건조</figcaption></figure><figure class="shot rv"><img src="../images/plant_web_74.jpg" alt="[팀원 화면] 수분 상태 진단: 과습" loading="lazy" data-zoom><figcaption>[팀원 화면] 수분 상태 진단: 과습</figcaption></figure><figure class="shot rv"><img src="../images/plant_web_97.jpg" alt="[팀원 화면] 수분 상태 진단: 적절" loading="lazy" data-zoom><figcaption>[팀원 화면] 수분 상태 진단: 적절</figcaption></figure></div>
 </section>
+
 <section class="ds" id="bg"><h2>배경과 문제</h2>
   <div class="prose rv"><p>식물 센서·급수 기록으로 토양 수분을 예측하고 환경 상태를 건조·일반·과습으로 나누는 3인 팀 과제였습니다.</p><p>처음 학습한 모델의 정확도가 거의 100%로 나왔습니다.</p></div>
-</section>
-<section class="ds" id="role"><h2>역할과 기여</h2>
-  <p class="role rv">센서 데이터 전처리 · 토양 수분 회귀 · 환경 상태 분류 모델 · 시연 영상 편집 (웹사이트 제작에서 담당 변경)</p>
-  <div class="rv"><div class="mo"><div><h4>내가 만든 부분</h4><ul><li>센서·급수 이력 JSON 병렬 적재</li><li>급수 후 경과일, 온·습도 이동평균 변수</li><li>토양 수분 회귀, 환경 상태 분류 모델</li><li>시연 영상 편집 (목소리 녹음은 조장)</li></ul></div><div class="ot"><h4>팀원이 만든 부분</h4><ul><li>잎 이미지 수분 상태 3분류</li><li>종 판별 모델</li><li>시연 웹사이트 (처음엔 본인 담당이었다가 담당이 바뀌어 팀원이 제작)</li></ul></div></div></div>
-  
 </section>
 <section class="ds" id="dec"><h2>기술적 의사결정</h2>
   <article class="case rv">

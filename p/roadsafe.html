@@ -7,7 +7,7 @@
 <meta name="description" content="여러 기관의 교통사고 데이터 13,959행을 위험구간 13,935개로 합치고 0~100점 위험점수와 4개 등급을 매겼습니다.">
 <meta property="og:title" content="RoadSafe · 이은아">
 <meta property="og:description" content="여러 기관의 교통사고 데이터 13,959행을 위험구간 13,935개로 합치고 0~100점 위험점수와 4개 등급을 매겼습니다.">
-<meta property="og:image" content="https://leeeunah-portfolio.vercel.app/images/og.jpg">
+<meta property="og:image" content="https://portfolio-sepherd.vercel.app/images/og.jpg">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="../images/favicon.png">
@@ -19,7 +19,7 @@
 <header class="gtop" id="gtop">
   <div class="gh-in">
     <a class="brand" href="../index.html"><img src="../images/char_sq.png" alt="">이은아</a>
-    <nav class="gnav" aria-label="섹션 이동"><a href="../index.html#profile">소개</a><a href="../index.html#can">할 수 있는 일</a><a href="../index.html#skills">기술</a><a href="../index.html#projects">프로젝트</a><a href="../index.html#learning">학습 기록</a></nav>
+    <nav class="gnav" aria-label="섹션 이동"><a href="../index.html#profile">소개</a><a href="../index.html#can">할 수 있는 일</a><a href="../index.html#skills">기술</a><a href="../index.html#projects">프로젝트</a></nav>
     <div class="gact"><a class="ghlink" href="https://github.com/euna0428" target="_blank" rel="noopener" data-cur="ext"><img class="ghi" src="../vendor/icons/github.svg" alt="" width="20" height="20">GitHub</a></div>
   </div>
 </header>
@@ -31,11 +31,19 @@
   <p class="htag"><span style="--c:#3776ab"><img src="../vendor/icons/python.svg" alt="" width="16" height="16">#Python</span><span style="--c:#4b3ca8"><img src="../vendor/icons/pandas.svg" alt="" width="16" height="16">#pandas</span><span style="--c:#e07b00"><img src="../vendor/icons/scikitlearn.svg" alt="" width="16" height="16">#scikit-learn</span><span style="--c:#a68a00"><img src="../vendor/icons/javascript.svg" alt="" width="16" height="16">#JavaScript</span><span style="--c:#3776ab">#ThreadingHTTPServer</span><span style="--c:#7a5c00"><img src="../vendor/icons/kakao.svg" alt="" width="16" height="16" class=kk>#Kakao Maps JS SDK</span><span style="--c:#7a5c00"><img src="../vendor/icons/kakao.svg" alt="" width="16" height="16" class=kk>#Kakao Mobility API</span><span style="--c:#1a73e8">#Geolocation</span><span style="--c:#1a73e8">#Web Speech</span></p>
   <div class="acts"><a class="pill line" href="https://github.com/euna0428/RoadSafe-BigData" target="_blank" rel="noopener">GitHub 저장소</a></div>
 </div></section>
-<div class="dtabs"><div class="wrap"><a href="#ov">개요</a><a href="#bg">배경과 문제</a><a href="#role">역할과 기여</a><a href="#dec">기술적 의사결정</a><a href="#res">성과와 배운 점</a></div></div>
+<div class="dtabs"><div class="wrap"><a href="#ov">개요</a><a href="#role">내가 한 일</a><a href="#demo">시연 화면</a><a href="#bg">배경과 문제</a><a href="#dec">기술적 의사결정</a><a href="#res">성과와 배운 점</a></div></div>
 <div class="wrap">
 <section class="ds" id="ov"><h2>개요</h2>
   <ul class="sum big rv"><li>여러 기관의 교통사고 데이터 13,959행을 위험구간 13,935개로 합치고 0~100점 위험점수와 4개 등급을 매겼습니다.</li><li>목적지를 검색하면 가는 길과 목적지 주변의 위험구간을 골라, 다가갈 때와 들어설 때 두 번 음성으로 알려 줍니다.</li><li>날씨와 돌발상황 API를 받아 위험도와 지도 데이터를 다시 계산하는 파이프라인도 만들었습니다.</li></ul>
   <dl class="meta rv"><div><dt>기간</dt><dd>2026.03 ~ 2026.06</dd></div><div><dt>구분</dt><dd>교내활동</dd></div><div><dt>인원</dt><dd>4인 팀</dd></div><div><dt>역할</dt><dd>팀장(PM) · 사고 데이터 통합, 위험 지표 설계 · 웹서버·지도·경로 경고 개발</dd></div></dl>
+</section>
+
+<section class="ds" id="role"><h2>내가 한 일</h2>
+  <p class="role rv">팀장(PM) · 사고 데이터 통합, 위험 지표 설계 · 웹서버·지도·경로 경고 개발</p>
+  <div class="rv"><div class="mo"><div><h4>내가 만든 부분</h4><ul><li>팀장(PM)으로 일정과 발표 준비 관리</li><li>기관별 사고 데이터 통합, 위험점수·등급 설계</li><li>ThreadingHTTPServer 경로 분석 API와 Kakao 지도 화면</li><li>GPS 추적, 2단계 음성 경고, 경로 재탐색</li><li>날씨·돌발상황 반영 파이프라인</li></ul></div></div></div>
+  
+</section>
+<section class="ds" id="demo"><h2>시연 화면</h2>
   <div class="demo rv">
   <div class="dv"><video src="../media/rs_demo.mp4" poster="../images/poster_rs.jpg" muted playsinline preload="metadata" controls data-auto></video><button type="button" class="snd" data-snd>소리 켜기</button></div>
   <aside class="chap"><ol><li><button type="button" data-t="0"><span>첫 화면: 전국 지도와 위험등급 범례</span><em>0:00</em></button></li><li><button type="button" data-t="8"><span>내 위치 주변 위험 확인</span><em>0:08</em></button></li><li><button type="button" data-t="40"><span>시/도·시군구 선택 → 지도 불러오기</span><em>0:40</em></button></li><li><button type="button" data-t="48"><span>위험구간 상세: 사고 건수·기상·위험점수</span><em>0:48</em></button></li><li><button type="button" data-t="64"><span>목적지 &#x27;롯데마트 성정점&#x27; 검색 → 경로 위험 분석</span><em>1:04</em></button></li><li><button type="button" data-t="88"><span>시연 주행 시작, 지도 따라가기</span><em>1:28</em></button></li><li><button type="button" data-t="134"><span>위험구간 진입 음성 경고</span><em>2:14</em></button></li><li><button type="button" data-t="159"><span>다음 위험구간 음성 경고</span><em>2:39</em></button></li></ol></aside>
@@ -43,13 +51,9 @@
 <p class="vcap rv">현재 위치에서 출발해 목적지를 검색하고, 시연 주행으로 경로를 따라가며 위험구간에 다가갈 때와 들어설 때 음성 경고가 나오는 장면입니다. 소리 켜기 버튼을 누르면 경고 음성이 들립니다.</p>
   <div class="fulls"><figure class="full rv"><div class="scrollshot"><img src="../images/rs_live_route.jpg" alt="목적지(천안 두정동)까지 경로를 분석하는 중. 현재 위치 주변 위험구간 20개를 표시하고, 86m 앞 보통 위험구간 진입을 안내" loading="lazy" data-zoom></div><figcaption>목적지(천안 두정동)까지 경로를 분석하는 중. 현재 위치 주변 위험구간 20개를 표시하고, 86m 앞 보통 위험구간 진입을 안내</figcaption></figure><figure class="full rv"><div class="scrollshot"><img src="../images/rs_live_drive.jpg" alt="롯데마트 성정점까지 경로를 따라가며 휴대폰으로 찍은 화면. 경로·목적지 위험구간 24개를 분석하고, 86m 앞 낮음 위험구간 진입 안내" loading="lazy" data-zoom></div><figcaption>롯데마트 성정점까지 경로를 따라가며 휴대폰으로 찍은 화면. 경로·목적지 위험구간 24개를 분석하고, 86m 앞 낮음 위험구간 진입 안내</figcaption></figure><figure class="full rv"><div class="scrollshot"><img src="../images/rs_live_nat.jpg" alt="첫 화면. 시/도·시군구·위험등급을 고르거나 목적지를 검색" loading="lazy" data-zoom></div><figcaption>첫 화면. 시/도·시군구·위험등급을 고르거나 목적지를 검색</figcaption></figure></div><div class="shots"><figure class="shot rv"><img src="../images/rs_map.jpg" alt="전국 위험구간 13,935개를 위험등급별로 찍은 위치" loading="lazy" data-zoom><figcaption>전국 위험구간 13,935개를 위험등급별로 찍은 위치</figcaption></figure><figure class="shot rv"><img src="../images/rs_source.jpg" alt="높음·매우높음 87개 구간이 모두 지자체별 일반사고 출처에 몰려 있음" loading="lazy" data-zoom><figcaption>높음·매우높음 87개 구간이 모두 지자체별 일반사고 출처에 몰려 있음</figcaption></figure><figure class="shot rv"><img src="../images/rs_top10_accident_risk.jpg" alt="위험점수 상위 10개 지역" loading="lazy" data-zoom><figcaption>위험점수 상위 10개 지역</figcaption></figure><figure class="shot rv"><img src="../images/rs_weather_risk_ratio.jpg" alt="기상상태별 위험점수 비율" loading="lazy" data-zoom><figcaption>기상상태별 위험점수 비율</figcaption></figure><figure class="shot rv"><img src="../images/rs_time_risk_ratio.jpg" alt="시간대별 위험점수 비율" loading="lazy" data-zoom><figcaption>시간대별 위험점수 비율</figcaption></figure><figure class="shot rv"><img src="../images/rs_weather_severity_per_case.jpg" alt="기상상태별 사고 1건당 심각도" loading="lazy" data-zoom><figcaption>기상상태별 사고 1건당 심각도</figcaption></figure></div>
 </section>
+
 <section class="ds" id="bg"><h2>배경과 문제</h2>
   <div class="prose rv"><p>사고 다발 지역 안내는 내비게이션에도 있습니다. 여기에 날씨와 돌발상황을 반영한 위험도를 더하고, 검색한 경로 위의 위험구간만 골라 알려 주도록 범위를 정했습니다.</p><p>백석대학교로 경로를 잡으면 위험구간이 0개로 나왔습니다. 학교 주변 사거리는 사고가 잦은 곳이라, 기능 오류인지 데이터 문제인지부터 가려야 했습니다.</p></div>
-</section>
-<section class="ds" id="role"><h2>역할과 기여</h2>
-  <p class="role rv">팀장(PM) · 사고 데이터 통합, 위험 지표 설계 · 웹서버·지도·경로 경고 개발</p>
-  <div class="rv"><div class="mo"><div><h4>내가 만든 부분</h4><ul><li>팀장(PM)으로 일정과 발표 준비 관리</li><li>기관별 사고 데이터 통합, 위험점수·등급 설계</li><li>ThreadingHTTPServer 경로 분석 API와 Kakao 지도 화면</li><li>GPS 추적, 2단계 음성 경고, 경로 재탐색</li><li>날씨·돌발상황 반영 파이프라인</li></ul></div></div></div>
-  
 </section>
 <section class="ds" id="dec"><h2>기술적 의사결정</h2>
   <article class="case rv">
