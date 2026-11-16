@@ -858,3 +858,6 @@ h1,h2,h3,h4,.fone,.hsub{text-wrap:balance}
 .docl b{font-size:14px;color:var(--ink)}
 .docl span{display:flex;flex-wrap:wrap;gap:6px 10px}
 .docl a{font-size:14px;color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+
+.sh .shnote{margin-left:18px;font-size:14px;font-weight:400;letter-spacing:0;line-height:1.6;color:var(--mute);vertical-align:middle}
+@media (max-width:760px){.sh .shnote{display:block;margin:8px 0 0}}
