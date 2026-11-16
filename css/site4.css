@@ -874,5 +874,7 @@ h1,h2,h3,h4,.fone,.hsub{text-wrap:balance}
 .cwcases .cwl{grid-column:2;font-size:14px;line-height:1.65;color:var(--sub)}
 .cwcases .go{grid-column:3;grid-row:1;margin:0;padding:0;font-size:13.5px;white-space:nowrap}
 .ds{scroll-margin-top:72px}
+.gf .gfn{margin-left:auto}.gf .gfn+span{margin-left:0}
+@media (max-width:760px){.gf .gfn{flex-basis:100%;margin-left:0}}
 @media (max-width:1024px){.canwide{grid-template-columns:1fr}.canwide .cbody{border-right:0;border-bottom:1px solid var(--line)}}
 @media (max-width:760px){.canwide .cbody{padding:22px 20px}.cwcases a{grid-template-columns:minmax(0,1fr);padding:16px 20px}.cwcases .cwp,.cwcases .cwl,.cwcases .go{grid-column:1;grid-row:auto}.cwcases .go{margin-top:4px}}
